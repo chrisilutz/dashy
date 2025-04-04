@@ -15,17 +15,20 @@ sections:
     icon: fas fa-rocket
     items:
       - &ref_0
-        title: Dashy Live
-        description: Development a project management links for Dashy
-        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-        url: https://live.dashy.to/
+        title: Home Assistant
+        description: Home Assistant
+        icon: hl-home-assistant
+        url: https://oxtcyp0xru4abzjg3dciv7ca4ivyiiqx.ui.nabu.casa/
         target: newtab
-        id: 0_1481_dashylive
+        statusCheck: true
+        id: 0_1481_homeassistant
       - &ref_1
-        title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
-        icon: favicon
+        title: pihole
+        description: ''
+        icon: hl-pihole
+        url: https://pihole.donchome.de/admin
+        target: newtab
+        statusCheck: true
         id: 1_1481_github
       - &ref_2
         title: proxmox
@@ -65,7 +68,7 @@ sections:
       - type: proxmox-lists
         useProxy: true 
         options:
-          cluster_url: https://proxmox.lan:8006
+          cluster_url: https://proxmox.donchome.work
           user_name: homarr@pve
-          token_name: homarr@pve!dashy-token
+          token_name: dashy-token
           token_uuid: 86f53e42-6e3b-4847-bd9c-c416edfef972
