@@ -61,3 +61,11 @@ sections:
       - *ref_3
       - *ref_4
       - *ref_5
+    widgets:
+      - type: proxmox-lists
+        useProxy: true 
+        options:
+          cluster_url: https://proxmox.lan:8006
+          user_name: homarr@pve
+          token_name: homarr@pve!dashy-token
+          token_uuid: 86f53e42-6e3b-4847-bd9c-c416edfef972
